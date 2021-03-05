@@ -1,3 +1,3 @@
- Rails.application.routes.draw do
- root 'welcome#index"
+Rails.application.routes.draw do
+ get '/hello_world' => 'hello_worlds#hello_world'
 end
